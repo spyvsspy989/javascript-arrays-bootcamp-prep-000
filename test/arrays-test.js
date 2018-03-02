@@ -18,11 +18,11 @@ var chocolateBars =
 
 "addElementToBeginningOfArray";
 {
-    it ('add the element to the beginning of array');
+    ('add the element to the beginning of array');
     'returns("the whole array");' ;
   }
 "destructivelyAddElementToBeginningOfArray" ; {
-  it ('add the elementto  to the beginning of array, alters the original array');
+  ('add the elementto  to the beginning of array, alters the original array');
  'returns(the new array and not modifiy the original);';
 }
 "addElementToEndOfArray" ; {
