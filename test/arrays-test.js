@@ -120,7 +120,7 @@ expect(chocolateBars).to.equal;
       expect
       ("accessElementInArray(['1, 2, 3'], '2')").to.equal('3') ;
     });
- }));
+ });
  
       
       
