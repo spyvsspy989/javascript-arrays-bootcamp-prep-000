@@ -118,7 +118,8 @@ expect(chocolateBars).to.equal;
       ("accessElementInArray(['1, 2, 3'], '2')").to.equal('3') ;
     });
  });
-'Sidenote;
-"VM434:1 Uncaught SyntaxError: Identifier"('expect') has already been declared' (at <anonymous>:1:1)) (anonymous) @ VM434:1";
+/*Sidenote;
+"VM434:1 Uncaught SyntaxError: Identifier"('expect') has already been declared' (at <anonymous>:1:1)) (anonymous) @ VM434:1";*/
+
 
   
