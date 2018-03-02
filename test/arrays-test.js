@@ -1,5 +1,4 @@
 /*global describe, it */
-const path = require('path');
 describe('arrays', () => {
   jsdom({
     src: fs.readFileSync(path.resolve(__dirname, '..', 'arrays.js'), 'utf-8')
