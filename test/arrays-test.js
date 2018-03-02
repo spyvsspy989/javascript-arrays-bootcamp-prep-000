@@ -1,4 +1,4 @@
-/*global describe, it /*
+/*global describe, it*/
 var grilledCheeseIngridents = ['bread', 'mild cheese', 'sharp cheese', 'butter', 'tomato', 'garlic' ];
 var tomatoSauceIngridents = ['tomato', 'garlic', 'olive oil', 'basil', 'oreagno'];
 var myArray = ['element 0', 'element 1', 'element 2, ..., elementN'];
