@@ -26,27 +26,27 @@ var chocolateBars =
  'returns(the new array and not modifiy the original);';
 }
 "addElementToEndOfArray" ; {
-  it ('takes two arguments, an array and an element to add to the end of the array, without altering the original');
+  ('takes two arguments, an array and an element to add to the end of the array, without altering the original');
   'returns ("without altering the original array")';
 }
 "accessElementInArray" ; {
-  it ('accepts an array and an index') ;
+  ('accepts an array and an index') ;
   returns('the element at that index');
 }
 "destructivelyRemoveElementFromBeginningOfArray" ; {
-  it ('takes an array as an argument and removes the first element');
+  ('takes an array as an argument and removes the first element');
   'returns(the entire array and mutates the array);';
 "removeElementFromBeginningOfArray" ; {
-  it ('takes an array as the only argument and removes the first element');
+  ('takes an array as the only argument and removes the first element');
   'returns(the entire array and should not mutate underlying array);';
 }
 "destructivelyRemoveElementFromEndOfArray"
 ; {
-  it ('takes an array as its only argument and removes the last element');
+  ('takes an array as its only argument and removes the last element');
   'returns(the entire array, and mutate the array);';
 }
 "removeElementFromEndOfArray" ; {
-  it ('takes an array as its only argument and removes the last elementy');
+  ('takes an array as its only argument and removes the last elementy');
   'returns(the array without the last element and should not mutate the original array);';
 }
 }
@@ -55,17 +55,17 @@ var cities = ["New York", "San Fransisco", "...cities", "Philidelphia"];
 var empty = [];
 
   describe('chocolateBars', () => {
-    it('is an array containing "snickers", "hundred grand", "kitkat", and "skittles"', () => {
+    ('is an array containing "snickers", "hundred grand", "kitkat", and "skittles"', () => {
 expect(chocolateBars).to.equal;
       '["hundred grand", "kitkat", "skittles",  "snickers"]';
     });
   });
   describe('addElementToBeginningOfArray(array, element)', () => {
-    it('adds an element to the beginning of an array', () => {
+    ('adds an element to the beginning of an array', () => {
       expect(addElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1]);
     });
 
-    it('does not alter the original array', () => {
+    ('does not alter the original array', () => {
       const array = [1];
 
       addElementToBeginningOfArray(array, 'foo');
@@ -75,11 +75,11 @@ expect(chocolateBars).to.equal;
   });
 
   describe('destructivelyAddElementToBeginningOfArray(array, element)', () => {
-    it('adds an element to the beginning of an array', () => {
+    ('adds an element to the beginning of an array', () => {
       expect(destructivelyAddElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1]);
     });
 
-    it('alters the original array', () => {
+    ('alters the original array', () => {
       const array = [1];
 
       destructivelyAddElementToBeginningOfArray(array, 'foo');
@@ -89,25 +89,25 @@ expect(chocolateBars).to.equal;
   })
 
   ('addElementToEndOfArray(array, element)', () => {
-    it('adds an element to the end of an array', () => {
+    ('adds an element to the end of an array', () => {
       expect(addElementToEndOfArray([1], 'foo')).to.eql([1, 'foo']) ;
     });
   });
-    it("does not alter the original array", () => {
+    ("does not alter the original array", () => {
       const array = ['1'] ;
       addElementToEndOfArray('array', 'foo') ;
       });
       'expect(array).to.eql([1])' ;
   describe('destructivelyAddElementToEndOfArray(array, element)', () => {
-    it('adds an element to the end of an array', () => {
+    ('adds an element to the end of an array', () => {
       expect(destructivelyAddElementToEndOfArray([1], 'foo')).to.equal([1, 'foo']) ;
     });
   });
-    it('alters the original array', () => {
+    ('alters the original array', () => {
       const array = [1];
     });
  ("accessElementInArray(array, index)", () => {
-    it("accesses the element in array at the given index", () => {
+    ("accesses the element in array at the given index", () => {
       expect
       ("accessElementInArray(['1, 2, 3'], '2')").to.equal('3') ;
     });
