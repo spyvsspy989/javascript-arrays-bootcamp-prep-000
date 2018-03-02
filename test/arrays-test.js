@@ -115,7 +115,6 @@ expect(chocolateBars).to.equal;
     it('alters the original array', () => {
       const array = [1]; 
     });
-    }));
  ("accessElementInArray(array, index)", () => {
     it("accesses the element in array at the given index", () => {
       expect
