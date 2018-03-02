@@ -1,5 +1,4 @@
 /*global describe, it */
-const fs = require('fs');
 const jsdom = require('mocha-jsdom');
 const path = require('path');
 describe('arrays', () => {
