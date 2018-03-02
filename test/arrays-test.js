@@ -1,9 +1,4 @@
 /*global describe, it */
-describe('arrays', () => {
-  jsdom({
-    src: fs.readFileSync(path.resolve(__dirname, '..', 'arrays.js'), 'utf-8')
-  });
-  });
 const expect = require('chai').expect ;
 var grilledCheeseIngridents = ['bread', 'mild cheese', 'sharp cheese', 'butter', 'tomato', 'garlic' ];
 var tomatoSauceIngridents = ['tomato', 'garlic', 'olive oil', 'basil', 'oreagno'];
